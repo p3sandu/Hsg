@@ -1,11 +1,8 @@
-## files
 * ApiTable.h - essential definitions
 * Resolver.c - essential functions including iat/eat parsing logic
 * Hasher.py - hashing logic to generate hashes.h
 * Hashes.h - generated hashes
 * FDefs.h - win32 api prototypes
-
----
 
 ## walkthrough
 
