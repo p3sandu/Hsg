@@ -63,9 +63,7 @@ static PVOID FindAddressByHash(HMODULE hMod, UINT32 u32FuncHash)
 
             if ((BYTE *)lpAddr >= (BYTE *)pExp && (BYTE *)lpAddr < ((BYTE *)pExp + dwExportSize))
             {
-                // Forwarder encountered (e.g. "NTDLL.RtlCopyMemory").
-                // In production, you would parse the string, load/find the missing base address,
-                // compute the new function name hash, and return a recursive call.
+                // TODO
                 return NULL;
             }
             return lpAddr;
