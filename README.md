@@ -97,10 +97,10 @@ typedef DWORD (WINAPI* fnWaitForSingleObject)(HANDLE hHandle, DWORD dwMillisecon
 finally you can call it like this:
 
 ```c
-int main() {
-    if (!API_Initialize()) {
+int main()
+{
+    if (!API_Initialize())
         return -1;
-    }
 
     fnWaitForSingleObject pWaitForSingleObject = (fnWaitForSingleObject)API.Kb.WaitForSingleObject.lpAddr;
     
