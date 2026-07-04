@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Hwashing.vcxproj" Id="39b9cdef-332a-4615-9efd-37a55fbe86c6" />
+</Solution>
